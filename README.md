@@ -19,20 +19,23 @@
         </p>
 
         <!-- Quick Links -->
-      <div align="center" style="margin: 20px 0;">
-  <a href="https://sathish-portfolio-website.onrender.com/" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/sathishkhan27" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</div>
+        <p align="center">
+        <a href="https://sathish-portfolio-website.onrender.com/" target="_blank">
+          <img src="https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio" />
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        &nbsp;&nbsp;
+        <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank">
+          <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/sathishkhan27" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+        </a>
+      </p>
       </td>
     </tr>
   </table>
