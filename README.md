@@ -106,118 +106,124 @@
 
 ### 🚀 Full-Stack Applications
 
-<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
-  <tr>
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <table width="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(102, 126, 234, 0.1); border: 1px solid rgba(0, 212, 255, 0.2); border-radius: 12px;">
-        <tr>
-          <td>
-            <h4 style="margin: 0 0 8px; color: #00D4FF; font-size: 1.1em;">🏨 BookNowGo</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em;">Hotel room booking platform with scalable backend and modern UX.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/BookNowGo-FrontEnd" style="color: #7dd3fc; text-decoration: none; margin-right: 10px;">Frontend</a>
-              <a href="https://github.com/sathishkhan27/BookNowGo-BackEnd" style="color: #7dd3fc; text-decoration: none;">Backend</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <table width="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(255, 111, 97, 0.1); border: 1px solid rgba(255, 111, 97, 0.2); border-radius: 12px;">
-        <tr>
-          <td>
-            <h4 style="margin: 0 0 8px; color: #FF6F61; font-size: 1.1em;">🍽️ PingZo Ecosystem</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em;">End-to-end grocery and food delivery platform with 3 apps.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0; font-size: 0.85em;">
-              <a href="https://github.com/sathishkhan27/PingZo-Customer-Mobile-App" style="color: #7dd3fc; text-decoration: none; margin-right: 8px;">Customer</a>
-              <a href="https://github.com/sathishkhan27/PingZO-Delivery-App" style="color: #7dd3fc; text-decoration: none; margin-right: 8px;">Delivery</a>
-              <a href="https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel" style="color: #7dd3fc; text-decoration: none;">Admin</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <table width="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(42, 82, 152, 0.1); border: 1px solid rgba(42, 82, 152, 0.2); border-radius: 12px;">
-        <tr>
-          <td>
-            <h4 style="margin: 0 0 8px; color: #7dd3fc; font-size: 1.1em;">📱 AI Calendar</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em;">AI-powered scheduling with intelligent automation and insights.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Framework-Dart-00B4AB?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/AI-Integrated-FF6F61?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/AI-Calendar" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <table width="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(116, 75, 162, 0.1); border: 1px solid rgba(116, 75, 162, 0.2); border-radius: 12px;">
-        <tr>
-          <td>
-            <h4 style="margin: 0 0 8px; color: #764BA2; font-size: 1.1em;">💼 Billing Software</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em;">Desktop ERP-like billing and inventory management system.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Tech-Flutter-00B4AB?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/System-ERP-00D4FF?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/Billing-Software-Desktop-Application" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <table width="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.2); border-radius: 12px;">
-        <tr>
-          <td>
-            <h4 style="margin: 0 0 8px; color: #00D4FF; font-size: 1.1em;">🌐 Portfolio Builder</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em;">Dynamic portfolio platform with customizable templates.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/CMS-Dynamic-00D4FF?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/Portfolio-Website-Builder" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="50%" style="padding: 10px; vertical-align: top;">
-      <table width="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(247, 223, 30, 0.1); border: 1px solid rgba(247, 223, 30, 0.2); border-radius: 12px;">
-        <tr>
-          <td>
-            <h4 style="margin: 0 0 8px; color: #F7DF1E; font-size: 1.1em;">🤖 Genisus AI OS</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em;">Personal AI operating system for productivity and automation.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/AI-Powered-FF6F61?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
+<table width="100%" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td width="50%" valign="top" style="padding: 10px;">
+      <!-- Card 1: BookNowGo -->
+      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(102, 126, 234, 0.1); border: 1px solid rgba(0, 212, 255, 0.2); border-radius: 12px;">
+        <tr>
+          <td valign="top">
+            <h4 style="margin: 0 0 8px; color: #00D4FF; font-size: 1.1em;">🏨 BookNowGo</h4>
+            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">Hotel room booking platform with scalable backend and modern UX.</p>
+            <div style="margin: 10px 0;">
+              <img src="https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square&logoColor=white" />
+              <img src="https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square&logoColor=white" style="margin-left: 5px;" />
+            </div>
+            <div style="margin: 8px 0;">
+              <a href="https://github.com/sathishkhan27/BookNowGo-FrontEnd" style="color: #7dd3fc; text-decoration: none; margin-right: 10px;">Frontend</a>
+              <a href="https://github.com/sathishkhan27/BookNowGo-BackEnd" style="color: #7dd3fc; text-decoration: none;">Backend</a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="50%" valign="top" style="padding: 10px;">
+      <!-- Card 2: PingZo Ecosystem -->
+      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(255, 111, 97, 0.1); border: 1px solid rgba(255, 111, 97, 0.2); border-radius: 12px;">
+        <tr>
+          <td valign="top">
+            <h4 style="margin: 0 0 8px; color: #FF6F61; font-size: 1.1em;">🍽️ PingZo Ecosystem</h4>
+            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">End-to-end grocery and food delivery platform with 3 apps.</p>
+            <div style="margin: 10px 0;">
+              <img src="https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square&logoColor=white" />
+              <img src="https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square&logoColor=white" style="margin-left: 5px;" />
+            </div>
+            <div style="margin: 8px 0; font-size: 0.85em;">
+              <a href="https://github.com/sathishkhan27/PingZo-Customer-Mobile-App" style="color: #7dd3fc; text-decoration: none; margin-right: 8px;">Customer</a>
+              <a href="https://github.com/sathishkhan27/PingZO-Delivery-App" style="color: #7dd3fc; text-decoration: none; margin-right: 8px;">Delivery</a>
+              <a href="https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel" style="color: #7dd3fc; text-decoration: none;">Admin</a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="padding: 10px;">
+      <!-- Card 3: AI Calendar -->
+      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(42, 82, 152, 0.1); border: 1px solid rgba(42, 82, 152, 0.2); border-radius: 12px;">
+        <tr>
+          <td valign="top">
+            <h4 style="margin: 0 0 8px; color: #7dd3fc; font-size: 1.1em;">📱 AI Calendar</h4>
+            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">AI-powered scheduling with intelligent automation and insights.</p>
+            <div style="margin: 10px 0;">
+              <img src="https://img.shields.io/badge/Framework-Dart-00B4AB?style=flat-square&logoColor=white" />
+              <img src="https://img.shields.io/badge/AI-Integrated-FF6F61?style=flat-square&logoColor=white" style="margin-left: 5px;" />
+            </div>
+            <div style="margin: 8px 0;">
+              <a href="https://github.com/sathishkhan27/AI-Calendar" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="50%" valign="top" style="padding: 10px;">
+      <!-- Card 4: Billing Software -->
+      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(116, 75, 162, 0.1); border: 1px solid rgba(116, 75, 162, 0.2); border-radius: 12px;">
+        <tr>
+          <td valign="top">
+            <h4 style="margin: 0 0 8px; color: #764BA2; font-size: 1.1em;">💼 Billing Software</h4>
+            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">Desktop ERP-like billing and inventory management system.</p>
+            <div style="margin: 10px 0;">
+              <img src="https://img.shields.io/badge/Tech-Flutter-00B4AB?style=flat-square&logoColor=white" />
+              <img src="https://img.shields.io/badge/System-ERP-00D4FF?style=flat-square&logoColor=white" style="margin-left: 5px;" />
+            </div>
+            <div style="margin: 8px 0;">
+              <a href="https://github.com/sathishkhan27/Billing-Software-Desktop-Application" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="padding: 10px;">
+      <!-- Card 5: Portfolio Builder -->
+      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.2); border-radius: 12px;">
+        <tr>
+          <td valign="top">
+            <h4 style="margin: 0 0 8px; color: #00D4FF; font-size: 1.1em;">🌐 Portfolio Builder</h4>
+            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">Dynamic portfolio platform with customizable templates.</p>
+            <div style="margin: 10px 0;">
+              <img src="https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square&logoColor=white" />
+              <img src="https://img.shields.io/badge/CMS-Dynamic-00D4FF?style=flat-square&logoColor=white" style="margin-left: 5px;" />
+            </div>
+            <div style="margin: 8px 0;">
+              <a href="https://github.com/sathishkhan27/Portfolio-Website-Builder" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="50%" valign="top" style="padding: 10px;">
+      <!-- Card 6: Genisus AI OS -->
+      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(247, 223, 30, 0.1); border: 1px solid rgba(247, 223, 30, 0.2); border-radius: 12px;">
+        <tr>
+          <td valign="top">
+            <h4 style="margin: 0 0 8px; color: #F7DF1E; font-size: 1.1em;">🤖 Genisus AI OS</h4>
+            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">Personal AI operating system for productivity and automation.</p>
+            <div style="margin: 10px 0;">
+              <img src="https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square&logoColor=white" />
+              <img src="https://img.shields.io/badge/AI-Powered-FF6F61?style=flat-square&logoColor=white" style="margin-left: 5px;" />
+            </div>
+            <div style="margin: 8px 0;">
+              <a href="https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
 </table>
 
 ---
