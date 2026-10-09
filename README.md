@@ -2,8 +2,8 @@
 
 <div align="center">
   
-  <!-- Animated greeting -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Leader+%26+Full-Stack+Architect" alt="Typing Animation" />
+  <!-- Animated greeting - Full Width -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Leader+%26+Full-Stack+Architect" alt="Typing Animation" />
   
   <p style="margin: 15px 0;">
     <img src="https://img.shields.io/badge/Focus-Mobile%20%26%20Web%20Architecture-00D4FF?style=flat-square&logo=target" />
