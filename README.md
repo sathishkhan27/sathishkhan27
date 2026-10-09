@@ -1,100 +1,258 @@
 <div align="center">
+  
+  <!-- Animated greeting -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Lead+%7C+Mobile+Architect;Building+scalable+digital+products" alt="Typing Animation" />
+  
+  <p>
+    <img src="https://img.shields.io/badge/Focus-Mobile%20%26%20Web%20Architecture-00D4FF?style=flat-square&logo=target" />
+    <img src="https://img.shields.io/badge/Experience-8%2B%20Years-FF6F61?style=flat-square&logo=calendar" />
+    <img src="https://img.shields.io/badge/Based%20In-India-%F74C1C?style=flat-square&logo=mapbox" />
+  </p>
 
-# Hi, I'm Sathish Sivakumar 👋
-
-### Technical Lead | Mobile Ecosystem Architect | Full-Stack Engineer
-Building scalable digital products across mobile, web, and enterprise platforms with a focus on performance, user experience, and business impact.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF6F61?style=for-the-badge)](https://sathish-portfolio-website.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sathish-sivakumar-99a462143)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:sathish.sivakumar2706@gmail.com)
+  <!-- Quick Links with Animations -->
+  <div style="margin: 20px 0;">
+    <a href="https://sathish-portfolio-website.onrender.com/" target="_blank">
+      <img alt="Portfolio" src="https://img.shields.io/badge/🌐_Portfolio-Visit-00D4FF?style=for-the-badge&logoColor=white" />
+    </a>
+    <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank">
+      <img alt="LinkedIn" src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge" />
+    </a>
+    <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank">
+      <img alt="Email" src="https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge" />
+    </a>
+  </div>
 
 </div>
 
 ---
 
-### 👨‍💻 About Me
-- 💼 Currently working as a Technical Lead at Impiger Technologies Pvt. Ltd.
-- 🚀 8+ years of experience designing, architecting, and delivering high-performance mobile ecosystems and B2B platforms.
-- 📱 Specializing in Flutter, React JS, and Native Android development using Java and Kotlin.
-- 🤖 Leveraging AI-powered tools such as GitHub Copilot, Claude, and Gemini to accelerate delivery and improve engineering efficiency.
-- 🌐 Explore my work and projects on my [Portfolio Website](https://sathish-portfolio-website.onrender.com/).
-- 📫 Reach out via [Email](mailto:sathish.sivakumar2706@gmail.com) or connect on [LinkedIn](https://linkedin.com/in/sathish-sivakumar-99a462143).
+## 👨‍💻 About Me
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; margin: 20px 0;">
+
+- 🏢 **Technical Lead** at Impiger Technologies Pvt. Ltd.
+- 🚀 **8+ Years** architecting high-performance mobile ecosystems and enterprise platforms
+- 📱 **Specialization**: Flutter, React JS, Native Android (Java & Kotlin)
+- 🤖 **AI Enthusiast**: Leveraging GitHub Copilot, Claude, and Gemini for accelerated delivery
+- 🌐 **Full-Stack Expert**: Mobile → Web → Backend → Cloud → AI
+- ✨ **Passion**: Building practical, scalable, and impactful digital solutions
+
+</div>
 
 ---
 
-### 🛠️ Tech Stack & Architecture
+## 🛠️ Tech Stack & Architecture
 
-#### Mobile & Web Development
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+<div align="center">
+
+### 📱 Mobile & Web Development
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![React JS](https://img.shields.io/badge/React_JS-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-#### Backend, Cloud & Databases
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+### 🔧 Backend, Cloud & Databases
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-#### Tools & DevOps
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+### 🚀 Tools & DevOps
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-2C5263?style=for-the-badge&logo=jenkins&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
----
-
-### 🚀 Featured Projects
-
-| Project | Domain | Key Technologies & Impact |
-| :--- | :--- | :--- |
-| **ABCD Aditya Birla Capital** | FinTech | Large-scale all-in-one platform serving 10M+ users with UPI, investments, and digital gold. Built with Flutter. |
-| **TATA AIA Siddhi** | Insurance | Business management app providing agents with real-time access to policies and earnings. Integrated with SSO and Biometrics. |
-| **BizcomAI** | B2B Automation | End-to-end platform powered by Conversational AI to access enterprise data via chat. |
-| **Go4WorldBusiness** | Global Trading | Marketplace connecting buyers and sellers. Developed using Flutter frontend and Java/Firebase backend. |
-| **Foodwall** | Social | Food-centric discovery and review platform with interactive UI and Firebase integration. |
-
----
-
-### 📊 GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sathishkhan27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sathishkhan27&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="48%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathishkhan27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" width="50%" />
 </div>
 
 ---
 
-### 💡 Professional Highlights
-- Architected and delivered large-scale mobile and enterprise applications for business-critical workflows.
-- Built platforms serving millions of users across fintech, insurance, trade, and social domains.
-- Designed end-to-end solutions blending mobile, web, backend, cloud, and AI-driven experiences.
-- Strong focus on scalable architecture, clean engineering, and product quality.
-- Experienced in collaborating with cross-functional teams to deliver high-impact business solutions.
+## 🌟 Featured Professional Projects
+
+| 🎯 Project | 💼 Domain | 📊 Impact & Tech |
+|:---|:---|:---|
+| **ABCD Aditya Birla Capital** | FinTech | 10M+ users • UPI, Investments, Digital Gold • Flutter-powered |
+| **TATA AIA Siddhi** | Insurance | Agent platform • Real-time policies & earnings • SSO + Biometrics |
+| **BizcomAI** | B2B Automation | Conversational AI • Enterprise data access via chat interface |
+| **Go4WorldBusiness** | Global Trading | Marketplace for buyers & sellers • Flutter + Java + Firebase |
+| **Foodwall** | Social Platform | Food discovery & reviews • Interactive UI • Firebase integration |
 
 ---
 
-### Open to Opportunities
-I’m open to:
-- Senior engineering roles
-- Technical lead / architecture opportunities
-- Product and platform development
-- Mobile, full-stack, and enterprise solution engineering
-- Collaboration on innovative digital products and startup ideas
+## 📂 My Open Source & Personal Projects
 
-If you're looking for a developer who can build practical, scalable, and impactful software, let's connect.
+<div style="margin: 30px 0;">
+
+### 🚀 **Full-Stack Applications**
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4>🏨 BookNowGo</h4>
+      <p><strong>Hotel Room Booking Platform</strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square" />
+        <img src="https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square" />
+      </p>
+      <p>Full-stack hotel booking application with modern web & backend architecture</p>
+      <a href="https://github.com/sathishkhan27/BookNowGo-FrontEnd">Frontend</a> • 
+      <a href="https://github.com/sathishkhan27/BookNowGo-BackEnd">Backend</a>
+    </td>
+    <td width="50%">
+      <h4>🍽️ PingZo Ecosystem</h4>
+      <p><strong>Grocery & Food Delivery Platform</strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square" />
+      </p>
+      <p>End-to-end delivery ecosystem with customer, delivery, and admin apps</p>
+      <a href="https://github.com/sathishkhan27/PingZo-Customer-Mobile-App">Customer</a> • 
+      <a href="https://github.com/sathishkhan27/PingZO-Delivery-App">Delivery</a> • 
+      <a href="https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel">Admin</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4>📱 AI-Powered Solutions</h4>
+      <p><strong>Intelligent Applications</strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/Framework-Dart%20Flutter-00B4AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/Platform-Cross--Platform-FF6F61?style=flat-square" />
+      </p>
+      <p>AI-enhanced calendar & scheduling management system</p>
+      <a href="https://github.com/sathishkhan27/AI-Calendar">AI Calendar</a>
+    </td>
+    <td width="50%">
+      <h4>💼 Desktop & Billing</h4>
+      <p><strong>Enterprise Solutions</strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/Tech-Dart%20Flutter-00B4AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/Focus-ERP-00D4FF?style=flat-square" />
+      </p>
+      <p>Comprehensive billing, invoicing & inventory management system</p>
+      <a href="https://github.com/sathishkhan27/Billing-Software-Desktop-Application">Billing App</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4>🌐 Portfolio Builder</h4>
+      <p><strong>Dynamic Portfolio Platform</strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square" />
+        <img src="https://img.shields.io/badge/Dynamic%20Content-CMS-00D4FF?style=flat-square" />
+      </p>
+      <p>Create & manage dynamic portfolio websites with real-time content rendering</p>
+      <a href="https://github.com/sathishkhan27/Portfolio-Website-Builder">View Project</a>
+    </td>
+    <td width="50%">
+      <h4>🤖 Genisus AI OS</h4>
+      <p><strong>Personal AI Operating System</strong></p>
+      <p>
+        <img src="https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square" />
+        <img src="https://img.shields.io/badge/AI--Powered-Interactive-FF6F61?style=flat-square" />
+      </p>
+      <p>Command center for AI-driven personal productivity & automation</p>
+      <a href="https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System">Explore</a>
+    </td>
+  </tr>
+</table>
+
+### 📱 **Mobile Applications**
+
+- **PingZo Customer Mobile App** - Dart/Flutter, User-friendly grocery & food ordering
+- **PingZo Delivery App** - Dart/Flutter, Real-time delivery tracking & management
+- **Shreeja Ulagam Mobile App** - Dart/Flutter, Domain-specific mobile solution
+
+### 🌐 **Web & Other Projects**
+
+- **gstechnology** - HTML-based showcase
+- **Portfolio Website** - Personal portfolio and professional presence
+
+</div>
 
 ---
 
-<div align="center">
-  <strong>Thanks for visiting my profile 🚀</strong>
+## 📊 GitHub Analytics & Activity
+
+<div align="center" style="margin: 30px 0;">
+
+  <!-- GitHub Stats with Animation -->
+  <img src="https://github-readme-stats.vercel.app/api?username=sathishkhan27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=FF6F61&text_color=fff&animation=true" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sathishkhan27&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4FF&ring=FF6F61&fire=FF6F61" alt="GitHub Streak" width="49%" />
+
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathishkhan27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=fff" alt="Top Languages" width="50%" style="margin-top: 20px;" />
+
+</div>
+
+---
+
+## 💡 Professional Highlights
+
+<div style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); padding: 25px; border-radius: 10px; margin: 20px 0;">
+
+- ✅ **Architected & Delivered** large-scale mobile and enterprise applications serving millions
+- ✅ **Platform Scale**: Built systems across FinTech, Insurance, B2B, Trading, and Social domains
+- ✅ **End-to-End Solutions**: Mobile → Web → Backend → Cloud → AI integration
+- ✅ **Team Leadership**: Technical lead guiding cross-functional teams for high-impact delivery
+- ✅ **Performance First**: Scalable architecture, clean code, and product excellence
+- ✅ **Innovation Driven**: Leveraging AI tools for accelerated development and delivery
+
+</div>
+
+---
+
+## 🎯 Open to Opportunities
+
+<div align="center" style="margin: 20px 0;">
+
+I'm actively seeking roles in:
+
+- 🚀 **Senior Engineering** | Technical Leadership
+- 🏗️ **Architecture & Design** | Platform Development  
+- 📱 **Mobile Ecosystem** | Full-Stack Engineering
+- 🤖 **AI Integration** | Innovative Solutions
+- 💼 **Enterprise Products** | Startup Ventures
+
+<strong>Let's build something amazing together! 🌟</strong>
+
+</div>
+
+---
+
+## 📫 Let's Connect
+
+<div align="center" style="margin: 30px 0;">
+
+  <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://sathish-portfolio-website.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=globe&logoColor=white" />
+  </a>
+  <a href="https://github.com/sathishkhan27" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
+</div>
+
+---
+
+<div align="center" style="margin: 40px 0;">
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=Building+the+future+with+code+and+innovation;Thanks+for+visiting+my+profile+🚀" alt="Closing Message" />
+
+  <p style="margin-top: 20px;">
+    <img src="https://img.shields.io/badge/Last%20Updated-Oct%202026-00D4FF?style=flat-square" />
+    <img src="https://img.shields.io/github/followers/sathishkhan27?style=flat-square&label=Followers&logo=github" />
+    <img src="https://img.shields.io/github/stars/sathishkhan27?style=flat-square&label=Stars&logo=github" />
+  </p>
+
 </div>
