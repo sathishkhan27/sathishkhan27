@@ -43,7 +43,7 @@
 
 ## 🛠️ Tech Stack & Architecture
 
-<div align="center">
+<div align="left">
 
 ### 📱 Mobile & Web Development
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white)
