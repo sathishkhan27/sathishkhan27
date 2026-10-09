@@ -16,15 +16,64 @@
     50% { box-shadow: 0 0 30px rgba(255, 111, 97, 0.5); }
   }
   
+  @keyframes slide-up {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: -1000px 0; }
+    100% { background-position: 1000px 0; }
+  }
+  
   .profile-header {
     animation: float-in 1s ease-out;
+  }
+  
+  .projects-grid-container {
+    background: linear-gradient(-45deg, rgba(102, 126, 234, 0.05), rgba(255, 111, 97, 0.05), rgba(42, 82, 152, 0.05), rgba(116, 75, 162, 0.05));
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+    padding: 30px 0;
+    border-radius: 15px;
+    margin: 25px 0;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .project-card {
+    background: rgba(102, 126, 234, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #00D4FF;
+    animation: slide-up 0.6s ease-out backwards;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+  }
+  
+  .project-card:nth-child(1) { animation-delay: 0.1s; border-left-color: #00D4FF; }
+  .project-card:nth-child(2) { animation-delay: 0.2s; border-left-color: #FF6F61; background: rgba(255, 111, 97, 0.1); }
+  .project-card:nth-child(3) { animation-delay: 0.3s; border-left-color: #2A5298; background: rgba(42, 82, 152, 0.1); }
+  .project-card:nth-child(4) { animation-delay: 0.4s; border-left-color: #764BA2; background: rgba(116, 75, 162, 0.1); }
+  .project-card:nth-child(5) { animation-delay: 0.5s; border-left-color: #00D4FF; background: rgba(0, 212, 255, 0.1); }
+  .project-card:nth-child(6) { animation-delay: 0.6s; border-left-color: #F7DF1E; background: rgba(247, 223, 30, 0.1); }
+  
+  .project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+    border-left-width: 6px;
   }
 </style>
 
 <div align="center" class="profile-header">
   
   <!-- Animated greeting -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Lead+%7C+Mobile+Architect;Building+scalable+digital+products" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Leader+%26+Full-Stack+Architect" alt="Typing Animation" />
   
   <p style="margin: 15px 0;">
     <img src="https://img.shields.io/badge/Focus-Mobile%20%26%20Web%20Architecture-00D4FF?style=flat-square&logo=target" />
@@ -110,98 +159,76 @@
 
 ### 🚀 Full-Stack Applications
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 25px 0;">
+<div class="projects-grid-container">
+  <div class="projects-grid">
+    
+    <div class="project-card">
+      <strong>🏨 BookNowGo</strong>
+      <p>Hotel Room Booking Platform</p>
+      <p style="font-size: 0.9em; margin: 10px 0;">
+        <img src="https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square" />
+        <img src="https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square" />
+      </p>
+      <p style="font-size: 0.85em;">Full-stack hotel booking application with modern architecture</p>
+      <p><a href="https://github.com/sathishkhan27/BookNowGo-FrontEnd" style="color: #00D4FF; text-decoration: none;">Frontend</a> • <a href="https://github.com/sathishkhan27/BookNowGo-BackEnd" style="color: #00D4FF; text-decoration: none;">Backend</a></p>
+    </div>
 
-<div style="background: rgba(102, 126, 234, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #00D4FF;">
+    <div class="project-card">
+      <strong>🍽️ PingZo Ecosystem</strong>
+      <p>Grocery & Food Delivery Platform</p>
+      <p style="font-size: 0.9em; margin: 10px 0;">
+        <img src="https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square" />
+      </p>
+      <p style="font-size: 0.85em;">End-to-end delivery ecosystem</p>
+      <p><a href="https://github.com/sathishkhan27/PingZo-Customer-Mobile-App" style="color: #FF6F61; text-decoration: none;">Customer</a> • <a href="https://github.com/sathishkhan27/PingZO-Delivery-App" style="color: #FF6F61; text-decoration: none;">Delivery</a> • <a href="https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel" style="color: #FF6F61; text-decoration: none;">Admin</a></p>
+    </div>
 
-**🏨 BookNowGo**
+    <div class="project-card">
+      <strong>📱 AI-Powered Solutions</strong>
+      <p>Intelligent Applications</p>
+      <p style="font-size: 0.9em; margin: 10px 0;">
+        <img src="https://img.shields.io/badge/Framework-Dart%20Flutter-00B4AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/Platform-Cross--Platform-FF6F61?style=flat-square" />
+      </p>
+      <p style="font-size: 0.85em;">AI-enhanced calendar & scheduling management</p>
+      <p><a href="https://github.com/sathishkhan27/AI-Calendar" style="color: #2A5298; text-decoration: none;">AI Calendar</a></p>
+    </div>
 
-Hotel Room Booking Platform
+    <div class="project-card">
+      <strong>💼 Desktop & Billing</strong>
+      <p>Enterprise Solutions</p>
+      <p style="font-size: 0.9em; margin: 10px 0;">
+        <img src="https://img.shields.io/badge/Tech-Dart%20Flutter-00B4AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/Focus-ERP-00D4FF?style=flat-square" />
+      </p>
+      <p style="font-size: 0.85em;">Billing, invoicing & inventory management</p>
+      <p><a href="https://github.com/sathishkhan27/Billing-Software-Desktop-Application" style="color: #764BA2; text-decoration: none;">Billing App</a></p>
+    </div>
 
-![TypeScript](https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square)
-![Java](https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square)
+    <div class="project-card">
+      <strong>🌐 Portfolio Builder</strong>
+      <p>Dynamic Portfolio Platform</p>
+      <p style="font-size: 0.9em; margin: 10px 0;">
+        <img src="https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square" />
+        <img src="https://img.shields.io/badge/Dynamic%20Content-CMS-00D4FF?style=flat-square" />
+      </p>
+      <p style="font-size: 0.85em;">Dynamic portfolio websites with real-time rendering</p>
+      <p><a href="https://github.com/sathishkhan27/Portfolio-Website-Builder" style="color: #00D4FF; text-decoration: none;">View Project</a></p>
+    </div>
 
-Full-stack hotel booking application with modern architecture
+    <div class="project-card">
+      <strong>🤖 Genisus AI OS</strong>
+      <p>Personal AI Operating System</p>
+      <p style="font-size: 0.9em; margin: 10px 0;">
+        <img src="https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square" />
+        <img src="https://img.shields.io/badge/AI--Powered-Interactive-FF6F61?style=flat-square" />
+      </p>
+      <p style="font-size: 0.85em;">Command center for AI-driven productivity</p>
+      <p><a href="https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System" style="color: #F7DF1E; text-decoration: none;">Explore</a></p>
+    </div>
 
-[Frontend](https://github.com/sathishkhan27/BookNowGo-FrontEnd) • [Backend](https://github.com/sathishkhan27/BookNowGo-BackEnd)
-
-</div>
-
-<div style="background: rgba(255, 111, 97, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #FF6F61;">
-
-**🍽️ PingZo Ecosystem**
-
-Grocery & Food Delivery Platform
-
-![Dart](https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square)
-![TypeScript](https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square)
-
-End-to-end delivery ecosystem
-
-[Customer](https://github.com/sathishkhan27/PingZo-Customer-Mobile-App) • [Delivery](https://github.com/sathishkhan27/PingZO-Delivery-App) • [Admin](https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel)
-
-</div>
-
-<div style="background: rgba(42, 82, 152, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #2A5298;">
-
-**📱 AI-Powered Solutions**
-
-Intelligent Applications
-
-![Flutter](https://img.shields.io/badge/Framework-Dart%20Flutter-00B4AB?style=flat-square)
-![AI](https://img.shields.io/badge/Platform-Cross--Platform-FF6F61?style=flat-square)
-
-AI-enhanced calendar & scheduling management
-
-[AI Calendar](https://github.com/sathishkhan27/AI-Calendar)
-
-</div>
-
-<div style="background: rgba(116, 75, 162, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #764BA2;">
-
-**💼 Desktop & Billing**
-
-Enterprise Solutions
-
-![Flutter](https://img.shields.io/badge/Tech-Dart%20Flutter-00B4AB?style=flat-square)
-![ERP](https://img.shields.io/badge/Focus-ERP-00D4FF?style=flat-square)
-
-Billing, invoicing & inventory management
-
-[Billing App](https://github.com/sathishkhan27/Billing-Software-Desktop-Application)
-
-</div>
-
-<div style="background: rgba(0, 212, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #00D4FF;">
-
-**🌐 Portfolio Builder**
-
-Dynamic Portfolio Platform
-
-![TypeScript](https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square)
-![CMS](https://img.shields.io/badge/Dynamic%20Content-CMS-00D4FF?style=flat-square)
-
-Dynamic portfolio websites with real-time rendering
-
-[View Project](https://github.com/sathishkhan27/Portfolio-Website-Builder)
-
-</div>
-
-<div style="background: rgba(247, 223, 30, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #F7DF1E;">
-
-**🤖 Genisus AI OS**
-
-Personal AI Operating System
-
-![JavaScript](https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square)
-![AI](https://img.shields.io/badge/AI--Powered-Interactive-FF6F61?style=flat-square)
-
-Command center for AI-driven productivity
-
-[Explore](https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System)
-
-</div>
-
+  </div>
 </div>
 
 ### 📱 Mobile Applications
@@ -221,10 +248,10 @@ Command center for AI-driven productivity
 
 <div align="center" style="margin: 30px 0;">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=sathishkhan27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=FF6F61&text_color=fff&animation=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sathishkhan27&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4FF&ring=FF6F61&fire=FF6F61" alt="GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sathishkhan27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=FF6F61&text_color=ffffff" alt="GitHub Stats" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sathishkhan27&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4FF&ring=FF6F61&fire=FF6F61" alt="GitHub Streak" width="100%" />
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathishkhan27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=fff" alt="Top Languages" width="50%" style="margin-top: 20px;" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathishkhan27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=ffffff" alt="Top Languages" width="100%" />
 
 </div>
 
@@ -296,7 +323,7 @@ Command center for AI-driven productivity
 
 <div align="center" style="margin: 40px 0;">
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=Building+the+future+with+code+and+innovation;Thanks+for+visiting+my+profile+🚀" alt="Closing Message" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=Building+the+future+with+code+and+innovation" alt="Footer" />
 
   <p style="margin-top: 20px;">
     <img src="https://img.shields.io/badge/Last%20Updated-Oct%202026-00D4FF?style=flat-square" />
