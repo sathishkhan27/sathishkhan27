@@ -10,32 +10,29 @@
         <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Leader+%26+Full-Stack+Architect;Building+Scalable+Solutions" alt="Typing Animation" width="100%" style="max-width: 900px;" />
         
         <!-- Quick Stats - Using Badge Images for GitHub Compatibility -->
-        <p style="margin: 20px 0; line-height: 1.8;">
-          <img src="https://img.shields.io/badge/📍_Location-India-FF6F61?style=for-the-badge&labelColor=1a2332" alt="Location" />
-          <br />
-          <img src="https://img.shields.io/badge/⚡_Experience-8%2B_Years-00D4FF?style=for-the-badge&labelColor=1a2332" alt="Experience" />
-          <br />
-          <img src="https://img.shields.io/badge/🎯_Focus-Full_Stack_Architecture-764BA2?style=for-the-badge&labelColor=1a2332" alt="Focus" />
-        </p>
+        <p align="center" style="margin: 20px 0;">
+  <img src="https://img.shields.io/badge/📍_Location-India-FF6F61?style=for-the-badge&labelColor=1a2332" alt="Location" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/⚡_Experience-8%2B_Years-00D4FF?style=for-the-badge&labelColor=1a2332" alt="Experience" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/🎯_Focus-Full_Stack_Architecture-764BA2?style=for-the-badge&labelColor=1a2332" alt="Focus" />
+</p>
 
         <!-- Quick Links -->
-        <p align="center">
-        <a href="https://sathish-portfolio-website.onrender.com/" target="_blank">
-          <img src="https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio" />
-        </a>
-        &nbsp;&nbsp;
-        <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        &nbsp;&nbsp;
-        <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank">
-          <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-        </a>
-        &nbsp;&nbsp;
-        <a href="https://github.com/sathishkhan27" target="_blank">
-          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-        </a>
-      </p>
+      <div align="center" style="margin: 20px 0;">
+          <a href="https://sathish-portfolio-website.onrender.com/" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
+            <img src="https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio" />
+          </a>
+          <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
+            <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+          </a>
+          <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
+            <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+          </a>
+          <a href="https://github.com/sathishkhan27" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
+            <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+          </a>
+</div>
       </td>
     </tr>
   </table>
