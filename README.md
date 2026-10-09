@@ -83,27 +83,99 @@
 
 ## 📂 My Open Source & Personal Projects
 
-### 🚀 Full-Stack Applications
+<details open>
+<summary><h3>🚀 Full-Stack Applications</h3></summary>
 
-| Project | Description | Tech Stack |
-|:---|:---|:---|
-| **🏨 BookNowGo** | Hotel room booking platform with modern architecture | TypeScript • Java • Full-stack |
-| **🍽️ PingZo Ecosystem** | Multi-tier delivery platform (Customer, Delivery, Admin) | Dart/Flutter • TypeScript |
-| **📱 AI-Powered Solutions** | AI-enhanced calendar & intelligent scheduling | Dart/Flutter • AI Integration |
-| **💼 Desktop & Billing** | Enterprise billing, invoicing & inventory management | Dart/Flutter • ERP |
-| **🌐 Portfolio Builder** | Dynamic portfolio platform with real-time rendering | TypeScript • CMS |
-| **🤖 Genisus AI OS** | Personal AI operating system for productivity | JavaScript • AI-Powered |
+<div align="center">
 
-### 📱 Mobile Applications
+### 🏨 BookNowGo - Hotel Room Booking Platform
+![TypeScript](https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square)
+![Java](https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square)
+![Full--Stack](https://img.shields.io/badge/Full--Stack-Architecture-00D4FF?style=flat-square)
 
-- **PingZo Customer Mobile App** - Dart/Flutter, User-friendly grocery & food ordering
-- **PingZo Delivery App** - Dart/Flutter, Real-time delivery tracking & management
-- **Shreeja Ulagam Mobile App** - Dart/Flutter, Domain-specific mobile solution
+Modern hotel booking application with scalable architecture and seamless user experience.
 
-### 🌐 Web & Other Projects
+[Frontend Repository](https://github.com/sathishkhan27/BookNowGo-FrontEnd) | [Backend Repository](https://github.com/sathishkhan27/BookNowGo-BackEnd)
 
-- **gstechnology** - HTML-based showcase
+---
+
+### 🍽️ PingZo Ecosystem - Multi-Tier Delivery Platform
+![Dart](https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square)
+![Flutter](https://img.shields.io/badge/Framework-Flutter-02569B?style=flat-square)
+![TypeScript](https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square)
+
+Complete delivery ecosystem with Customer App, Delivery Partner App, and Admin Dashboard.
+
+[Customer App](https://github.com/sathishkhan27/PingZo-Customer-Mobile-App) | [Delivery App](https://github.com/sathishkhan27/PingZO-Delivery-App) | [Admin Panel](https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel)
+
+---
+
+### 📱 AI-Powered Solutions - Intelligent Calendar & Scheduling
+![Dart](https://img.shields.io/badge/Framework-Dart-00B4AB?style=flat-square)
+![Flutter](https://img.shields.io/badge/Mobile-Flutter-02569B?style=flat-square)
+![AI](https://img.shields.io/badge/Intelligence-AI--Integrated-FF6F61?style=flat-square)
+
+AI-enhanced calendar with smart scheduling, intelligent suggestions, and predictive features.
+
+[AI Calendar Repository](https://github.com/sathishkhan27/AI-Calendar)
+
+---
+
+### 💼 Desktop & Billing - Enterprise Solutions
+![Dart](https://img.shields.io/badge/Tech-Dart-00B4AB?style=flat-square)
+![Flutter](https://img.shields.io/badge/Desktop-Flutter-02569B?style=flat-square)
+![ERP](https://img.shields.io/badge/System-ERP-00D4FF?style=flat-square)
+
+Comprehensive billing software with invoicing, inventory management, and financial reporting.
+
+[Billing Software Repository](https://github.com/sathishkhan27/Billing-Software-Desktop-Application)
+
+---
+
+### 🌐 Portfolio Builder - Dynamic Content Platform
+![TypeScript](https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square)
+![React](https://img.shields.io/badge/Framework-React-61DAFB?style=flat-square)
+![CMS](https://img.shields.io/badge/System-Dynamic%20CMS-00D4FF?style=flat-square)
+
+Dynamic portfolio platform with real-time rendering and customizable templates.
+
+[Portfolio Builder Repository](https://github.com/sathishkhan27/Portfolio-Website-Builder)
+
+---
+
+### 🤖 Genisus AI OS - Personal AI Operating System
+![JavaScript](https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square)
+![AI](https://img.shields.io/badge/AI-Powered-FF6F61?style=flat-square)
+![Automation](https://img.shields.io/badge/Focus-Automation-00D4FF?style=flat-square)
+
+Unified command center for AI-driven productivity, automation, and intelligent workflows.
+
+[Genisus AI OS Repository](https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System)
+
+</div>
+
+</details>
+
+---
+
+<details open>
+<summary><h3>📱 Mobile Applications</h3></summary>
+
+- **PingZo Customer Mobile App** - Dart/Flutter, User-friendly grocery & food ordering with real-time tracking
+- **PingZo Delivery App** - Dart/Flutter, Real-time delivery tracking, route optimization & earnings management
+- **Shreeja Ulagam Mobile App** - Dart/Flutter, Domain-specific mobile solution with rich features
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🌐 Web & Other Projects</h3></summary>
+
+- **gstechnology** - HTML-based portfolio showcase
 - **Portfolio Website** - Personal portfolio and professional presence
+
+</details>
 
 ---
 
