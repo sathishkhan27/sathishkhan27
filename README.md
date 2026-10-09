@@ -1,29 +1,212 @@
-<!-- GitHub Profile README -->
+<!-- ANIMATED BACKGROUND -->
+<style>
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes float-in {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 18px rgba(0, 212, 255, 0.22); }
+    50% { box-shadow: 0 0 28px rgba(255, 111, 97, 0.42); }
+  }
+
+  @keyframes shimmer {
+    from { transform: translateX(-120%); }
+    to { transform: translateX(120%); }
+  }
+
+  .hero-shell {
+    position: relative;
+    overflow: hidden;
+    border-radius: 26px;
+    padding: 28px 18px 20px;
+    margin: 18px 0 26px;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(16, 30, 54, 0.9));
+    border: 1px solid rgba(0, 212, 255, 0.25);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+    background-size: 200% 200%;
+    animation: gradient-shift 12s ease infinite;
+  }
+
+  .hero-shell::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 20% 20%, rgba(0, 212, 255, 0.18), transparent 30%),
+                radial-gradient(circle at 80% 30%, rgba(255, 111, 97, 0.18), transparent 30%),
+                radial-gradient(circle at 50% 80%, rgba(118, 75, 162, 0.18), transparent 35%);
+    animation: gradient-shift 15s ease infinite;
+    pointer-events: none;
+  }
+
+  .profile-header {
+    position: relative;
+    z-index: 1;
+    animation: float-in 1s ease-out;
+  }
+
+  .hero-shell img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .quick-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 18px 0 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .quick-links a {
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+
+  .quick-links a:hover {
+    transform: translateY(-2px);
+  }
+
+  .stats-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .badge-glow {
+    animation: pulse-glow 2.8s ease-in-out infinite;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 24px 0 10px;
+  }
+
+  .project-card {
+    position: relative;
+    overflow: hidden;
+    padding: 22px 20px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(17, 24, 39, 0.86);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+
+  .project-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 -100%;
+    width: 60%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent);
+    transform: skewX(-22deg);
+    animation: shimmer 2.8s ease-in-out infinite;
+  }
+
+  .project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 34px rgba(0, 212, 255, 0.12);
+    border-color: rgba(0, 212, 255, 0.35);
+  }
+
+  .project-card h4 {
+    margin: 0 0 8px;
+    font-size: 1.12rem;
+    color: #ffffff;
+  }
+
+  .project-card p {
+    margin: 8px 0;
+    font-size: 0.92rem;
+    color: #d0d8e4;
+  }
+
+  .project-card .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0;
+  }
+
+  .project-card .links {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .project-card a {
+    color: #7dd3fc;
+    text-decoration: none;
+    border: 1px solid rgba(125, 211, 252, 0.35);
+    border-radius: 999px;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    background: rgba(125, 211, 252, 0.04);
+  }
+
+  .project-card a:hover {
+    background: rgba(125, 211, 252, 0.10);
+  }
+
+  .projects-section {
+    background: linear-gradient(135deg, rgba(11, 18, 32, 0.75), rgba(20, 33, 54, 0.7));
+    border: 1px solid rgba(0, 212, 255, 0.14);
+    border-radius: 20px;
+    padding: 18px 18px 6px;
+    margin: 4px 0 16px;
+  }
+
+  .projects-title {
+    margin: 0 0 10px;
+    color: #7dd3fc;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    .hero-shell {
+      padding: 20px 8px 12px;
+    }
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
 
 <div align="center">
-  
-  <!-- Animated greeting - Full Width -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Leader+%26+Full-Stack+Architect" alt="Typing Animation" />
-  
-  <p style="margin: 15px 0;">
-    <img src="https://img.shields.io/badge/Focus-Mobile%20%26%20Web%20Architecture-00D4FF?style=flat-square&logo=target" />
-    <img src="https://img.shields.io/badge/Experience-8%2B%20Years-FF6F61?style=flat-square&logo=calendar" />
-    <img src="https://img.shields.io/badge/Based%20In-India-%F74C1C?style=flat-square&logo=mapbox" />
-  </p>
+  <div class="hero-shell">
+    <div class="profile-header">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Leader+%26+Full-Stack+Architect" alt="Typing Animation" />
 
-  <!-- Quick Links -->
-  <div style="margin: 20px 0; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-    <a href="https://sathish-portfolio-website.onrender.com/" target="_blank" style="text-decoration: none;">
-      <img alt="Portfolio" src="https://img.shields.io/badge/🌐_Portfolio-Visit-00D4FF?style=for-the-badge&logoColor=white" />
-    </a>
-    <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank" style="text-decoration: none;">
-      <img alt="LinkedIn" src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge" />
-    </a>
-    <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank" style="text-decoration: none;">
-      <img alt="Email" src="https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge" />
-    </a>
+      <div class="stats-row">
+        <img class="badge-glow" src="https://img.shields.io/badge/Focus-Mobile%20%26%20Web%20Architecture-00D4FF?style=flat-square&logo=target" />
+        <img class="badge-glow" src="https://img.shields.io/badge/Experience-8%2B%20Years-FF6F61?style=flat-square&logo=calendar" />
+        <img class="badge-glow" src="https://img.shields.io/badge/Based%20In-India-%F74C1C?style=flat-square&logo=mapbox" />
+      </div>
+
+      <div class="quick-links">
+        <a href="https://sathish-portfolio-website.onrender.com/" target="_blank"><img alt="Portfolio" src="https://img.shields.io/badge/🌐_Portfolio-Visit-00D4FF?style=for-the-badge&logoColor=white" /></a>
+        <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge" /></a>
+        <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge" /></a>
+      </div>
+    </div>
   </div>
-
 </div>
 
 ---
@@ -83,87 +266,95 @@
 
 ## 📂 My Open Source & Personal Projects
 
-<details open>
-<summary><h3>🚀 Full-Stack Applications</h3></summary>
+<div class="projects-section">
+  <h3 class="projects-title">🚀 Full-Stack Applications</h3>
 
-<div align="center">
+  <div class="project-grid">
+    <div class="project-card">
+      <h4>🏨 BookNowGo</h4>
+      <p>Hotel room booking platform with scalable backend and modern UX.</p>
+      <div class="meta">
+        <img src="https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square" />
+        <img src="https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square" />
+      </div>
+      <div class="links">
+        <a href="https://github.com/sathishkhan27/BookNowGo-FrontEnd">Frontend</a>
+        <a href="https://github.com/sathishkhan27/BookNowGo-BackEnd">Backend</a>
+      </div>
+    </div>
 
-### 🏨 BookNowGo - Hotel Room Booking Platform
-![TypeScript](https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square)
-![Java](https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square)
-![Full--Stack](https://img.shields.io/badge/Full--Stack-Architecture-00D4FF?style=flat-square)
+    <div class="project-card">
+      <h4>🍽️ PingZo Ecosystem</h4>
+      <p>End-to-end grocery and food delivery platform across customer, delivery, and admin flows.</p>
+      <div class="meta">
+        <img src="https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square" />
+      </div>
+      <div class="links">
+        <a href="https://github.com/sathishkhan27/PingZo-Customer-Mobile-App">Customer</a>
+        <a href="https://github.com/sathishkhan27/PingZO-Delivery-App">Delivery</a>
+        <a href="https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel">Admin</a>
+      </div>
+    </div>
 
-Modern hotel booking application with scalable architecture and seamless user experience.
+    <div class="project-card">
+      <h4>📱 AI Calendar</h4>
+      <p>AI-enhanced scheduling and productivity system with intelligent workflow automation.</p>
+      <div class="meta">
+        <img src="https://img.shields.io/badge/Framework-Dart-00B4AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/AI-Integrated-FF6F61?style=flat-square" />
+      </div>
+      <div class="links">
+        <a href="https://github.com/sathishkhan27/AI-Calendar">Repository</a>
+      </div>
+    </div>
 
-[Frontend Repository](https://github.com/sathishkhan27/BookNowGo-FrontEnd) | [Backend Repository](https://github.com/sathishkhan27/BookNowGo-BackEnd)
+    <div class="project-card">
+      <h4>💼 Billing Software</h4>
+      <p>Desktop ERP-like billing and inventory platform for enterprise operations.</p>
+      <div class="meta">
+        <img src="https://img.shields.io/badge/Tech-Flutter-00B4AB?style=flat-square" />
+        <img src="https://img.shields.io/badge/System-ERP-00D4FF?style=flat-square" />
+      </div>
+      <div class="links">
+        <a href="https://github.com/sathishkhan27/Billing-Software-Desktop-Application">Repository</a>
+      </div>
+    </div>
 
----
+    <div class="project-card">
+      <h4>🌐 Portfolio Builder</h4>
+      <p>Dynamic portfolio platform with configurable templates and real-time content rendering.</p>
+      <div class="meta">
+        <img src="https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square" />
+        <img src="https://img.shields.io/badge/CMS-Dynamic-00D4FF?style=flat-square" />
+      </div>
+      <div class="links">
+        <a href="https://github.com/sathishkhan27/Portfolio-Website-Builder">Repository</a>
+      </div>
+    </div>
 
-### 🍽️ PingZo Ecosystem - Multi-Tier Delivery Platform
-![Dart](https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square)
-![Flutter](https://img.shields.io/badge/Framework-Flutter-02569B?style=flat-square)
-![TypeScript](https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square)
-
-Complete delivery ecosystem with Customer App, Delivery Partner App, and Admin Dashboard.
-
-[Customer App](https://github.com/sathishkhan27/PingZo-Customer-Mobile-App) | [Delivery App](https://github.com/sathishkhan27/PingZO-Delivery-App) | [Admin Panel](https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel)
-
----
-
-### 📱 AI-Powered Solutions - Intelligent Calendar & Scheduling
-![Dart](https://img.shields.io/badge/Framework-Dart-00B4AB?style=flat-square)
-![Flutter](https://img.shields.io/badge/Mobile-Flutter-02569B?style=flat-square)
-![AI](https://img.shields.io/badge/Intelligence-AI--Integrated-FF6F61?style=flat-square)
-
-AI-enhanced calendar with smart scheduling, intelligent suggestions, and predictive features.
-
-[AI Calendar Repository](https://github.com/sathishkhan27/AI-Calendar)
-
----
-
-### 💼 Desktop & Billing - Enterprise Solutions
-![Dart](https://img.shields.io/badge/Tech-Dart-00B4AB?style=flat-square)
-![Flutter](https://img.shields.io/badge/Desktop-Flutter-02569B?style=flat-square)
-![ERP](https://img.shields.io/badge/System-ERP-00D4FF?style=flat-square)
-
-Comprehensive billing software with invoicing, inventory management, and financial reporting.
-
-[Billing Software Repository](https://github.com/sathishkhan27/Billing-Software-Desktop-Application)
-
----
-
-### 🌐 Portfolio Builder - Dynamic Content Platform
-![TypeScript](https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square)
-![React](https://img.shields.io/badge/Framework-React-61DAFB?style=flat-square)
-![CMS](https://img.shields.io/badge/System-Dynamic%20CMS-00D4FF?style=flat-square)
-
-Dynamic portfolio platform with real-time rendering and customizable templates.
-
-[Portfolio Builder Repository](https://github.com/sathishkhan27/Portfolio-Website-Builder)
-
----
-
-### 🤖 Genisus AI OS - Personal AI Operating System
-![JavaScript](https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square)
-![AI](https://img.shields.io/badge/AI-Powered-FF6F61?style=flat-square)
-![Automation](https://img.shields.io/badge/Focus-Automation-00D4FF?style=flat-square)
-
-Unified command center for AI-driven productivity, automation, and intelligent workflows.
-
-[Genisus AI OS Repository](https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System)
-
+    <div class="project-card">
+      <h4>🤖 Genisus AI OS</h4>
+      <p>Personal AI operating system for focused workflows, automation, and decision support.</p>
+      <div class="meta">
+        <img src="https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square" />
+        <img src="https://img.shields.io/badge/AI-Powered-FF6F61?style=flat-square" />
+      </div>
+      <div class="links">
+        <a href="https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System">Repository</a>
+      </div>
+    </div>
+  </div>
 </div>
-
-</details>
 
 ---
 
 <details open>
 <summary><h3>📱 Mobile Applications</h3></summary>
 
-- **PingZo Customer Mobile App** - Dart/Flutter, User-friendly grocery & food ordering with real-time tracking
-- **PingZo Delivery App** - Dart/Flutter, Real-time delivery tracking, route optimization & earnings management
-- **Shreeja Ulagam Mobile App** - Dart/Flutter, Domain-specific mobile solution with rich features
+- **PingZo Customer Mobile App** - Dart/Flutter, user-friendly grocery & food ordering with real-time tracking
+- **PingZo Delivery App** - Dart/Flutter, live delivery tracking, route optimization & earnings management
+- **Shreeja Ulagam Mobile App** - Dart/Flutter, domain-specific mobile solution with rich features
 
 </details>
 
@@ -183,11 +374,11 @@ Unified command center for AI-driven productivity, automation, and intelligent w
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sathishkhan27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=FF6F61&text_color=ffffff)
+<img src="https://github-readme-stats.vercel.app/api?username=sathishkhan27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=FF6F61&text_color=ffffff" alt="GitHub Stats" />
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sathishkhan27&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4FF&ring=FF6F61&fire=FF6F61)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sathishkhan27&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4FF&ring=FF6F61&fire=FF6F61" alt="GitHub Streak" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sathishkhan27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=ffffff)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathishkhan27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=ffffff" alt="Top Languages" />
 
 </div>
 
@@ -234,8 +425,8 @@ I'm actively seeking roles in:
 
 **Building the future with code and innovation** ✨
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-Oct%202026-00D4FF?style=flat-square)
-![Followers](https://img.shields.io/github/followers/sathishkhan27?style=flat-square&label=Followers&logo=github)
-![Stars](https://img.shields.io/github/stars/sathishkhan27?style=flat-square&label=Stars&logo=github)
+<img src="https://img.shields.io/badge/Last%20Updated-Oct%202026-00D4FF?style=flat-square" />
+<img src="https://img.shields.io/github/followers/sathishkhan27?style=flat-square&label=Followers&logo=github" />
+<img src="https://img.shields.io/github/stars/sathishkhan27?style=flat-square&label=Stars&logo=github" />
 
 </div>
