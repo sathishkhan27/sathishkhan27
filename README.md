@@ -1,61 +1,36 @@
 <!-- SATHISH SIVAKUMAR - GITHUB PROFILE -->
 
 <div align="center">
-  
-  <!-- Hero Banner with Gradient & Direct Styling -->
-  <table width="100%" cellspacing="0" cellpadding="20" style="border-collapse: collapse; background: linear-gradient(135deg, #0f172a 0%, #102c3c 100%); border-radius: 16px; border: 1px solid rgba(0, 212, 255, 0.2); margin: 20px 0;">
-    <tr>
-      <td align="center">
-        <!-- Main Greeting -->
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Leader+%26+Full-Stack+Architect;Building+Scalable+Solutions" alt="Typing Animation" width="100%" style="max-width: 900px;" />
-        
-        <!-- Quick Stats - Using Badge Images for GitHub Compatibility -->
-        <p align="center" style="margin: 20px 0;">
-  <img src="https://img.shields.io/badge/📍_Location-India-FF6F61?style=for-the-badge&labelColor=1a2332" alt="Location" />
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/⚡_Experience-8%2B_Years-00D4FF?style=for-the-badge&labelColor=1a2332" alt="Experience" />
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/🎯_Focus-Full_Stack_Architecture-764BA2?style=for-the-badge&labelColor=1a2332" alt="Focus" />
-</p>
-
-        <!-- Quick Links -->
-      <div align="center" style="margin: 20px 0;">
-          <a href="https://sathish-portfolio-website.onrender.com/" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
-            <img src="https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio" />
-          </a>
-          <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
-            <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-          </a>
-          <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
-            <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-          </a>
-          <a href="https://github.com/sathishkhan27" target="_blank" style="text-decoration: none; display: inline-block; margin: 5px;">
-            <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-          </a>
-</div>
-      </td>
-    </tr>
-  </table>
-
+  <!-- Hero Banner with Gradient -->
+  <table width="100%" border="0" cellspacing="0" cellpadding="20" style="border-collapse: collapse; background: linear-gradient(135deg, #0f172a 0%, #102c3c 100%); border-radius: 16px;">
+    <tr>
+      <td align="center">
+        <!-- Main Greeting -->
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Sathish+Sivakumar;Technical+Leader+%26+Full-Stack+Architect;Building+Scalable+Solutions" alt="Typing Animation" width="100%" style="max-width: 900px;" /><br><br>
+        <!-- Quick Stats -->
+        <img src="https://img.shields.io/badge/📍_Location-Chennai,_India-FF6F61?style=for-the-badge&labelColor=1a2332" alt="Location" />&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/⚡_Experience-8%2B_Years-00D4FF?style=for-the-badge&labelColor=1a2332" alt="Experience" />&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/🎯_Focus-Full_Stack_Architecture-764BA2?style=for-the-badge&labelColor=1a2332" alt="Focus" /><br><br>
+        <!-- Quick Links -->
+        <a href="https://sathish-portfolio-website.onrender.com/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;&nbsp;<a href="https://github.com/sathishkhan27" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+      </td>
+    </tr>
+  </table>
 </div>
 
----
+<br>
 
 ## 👨‍💻 About Me
 
-<table width="100%" cellspacing="0" cellpadding="20" style="border-collapse: collapse; background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%); border-radius: 12px; border-left: 4px solid #00D4FF; margin: 20px 0;">
-  <tr>
-    <td>
-
-- 🏢 **Technical Lead** at **Impiger Technologies Pvt. Ltd.**
-- 🚀 **8+ Years** architecting high-performance mobile ecosystems and enterprise platforms
-- 📱 **Specialization**: Flutter • React JS • Native Android (Java & Kotlin)
-- 🤖 **AI Integration**: GitHub Copilot • Claude • Gemini for accelerated delivery
-- 🌐 **Full-Stack Expert**: Mobile → Web → Backend → Cloud → AI
-- ✨ **Passion**: Practical, scalable, and impactful digital solutions
-
-    </td>
-  </tr>
+<table width="100%" border="0" cellspacing="0" cellpadding="20" style="border-collapse: collapse; background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%); border-radius: 12px;">
+  <tr>
+    <td style="font-size: 16px; line-height: 1.8;">
+      🏢 <b>Technical Lead</b> at <b>Impiger Technologies Pvt. Ltd.</b><br>
+      🚀 <b>8+ Years</b> architecting high-performance mobile ecosystems and enterprise platforms<br>
+      📱 <b>Specialization</b>: Flutter • React JS • Native Android (Java & Kotlin)<br>
+      🤖 <b>AI Integration</b>: GitHub Copilot • Claude • Gemini for accelerated delivery<br>
+      🌐 <b>Full-Stack Expert</b>: Mobile → Web → Backend → Cloud → AI<br>
+      ✨ <b>Passion</b>: Practical, scalable, and impactful digital solutions
+    </td>
+  </tr>
 </table>
 
 ---
@@ -106,138 +81,23 @@
 
 ### 🚀 Full-Stack Applications
 
-<table width="100%" cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
-  <tr>
-    <td width="50%" valign="top" style="padding: 10px;">
-      <!-- Card 1: BookNowGo -->
-      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(102, 126, 234, 0.1); border: 1px solid rgba(0, 212, 255, 0.2); border-radius: 12px;">
-        <tr>
-          <td valign="top">
-            <h4 style="margin: 0 0 8px; color: #00D4FF; font-size: 1.1em;">🏨 BookNowGo</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">Hotel room booking platform with scalable backend and modern UX.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/BookNowGo-FrontEnd" style="color: #7dd3fc; text-decoration: none; margin-right: 10px;">Frontend</a>
-              <a href="https://github.com/sathishkhan27/BookNowGo-BackEnd" style="color: #7dd3fc; text-decoration: none;">Backend</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="50%" valign="top" style="padding: 10px;">
-      <!-- Card 2: PingZo Ecosystem -->
-      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(255, 111, 97, 0.1); border: 1px solid rgba(255, 111, 97, 0.2); border-radius: 12px;">
-        <tr>
-          <td valign="top">
-            <h4 style="margin: 0 0 8px; color: #FF6F61; font-size: 1.1em;">🍽️ PingZo Ecosystem</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">End-to-end grocery and food delivery platform with 3 apps.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0; font-size: 0.85em;">
-              <a href="https://github.com/sathishkhan27/PingZo-Customer-Mobile-App" style="color: #7dd3fc; text-decoration: none; margin-right: 8px;">Customer</a>
-              <a href="https://github.com/sathishkhan27/PingZO-Delivery-App" style="color: #7dd3fc; text-decoration: none; margin-right: 8px;">Delivery</a>
-              <a href="https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel" style="color: #7dd3fc; text-decoration: none;">Admin</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" style="padding: 10px;">
-      <!-- Card 3: AI Calendar -->
-      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(42, 82, 152, 0.1); border: 1px solid rgba(42, 82, 152, 0.2); border-radius: 12px;">
-        <tr>
-          <td valign="top">
-            <h4 style="margin: 0 0 8px; color: #7dd3fc; font-size: 1.1em;">📱 AI Calendar</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">AI-powered scheduling with intelligent automation and insights.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Framework-Dart-00B4AB?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/AI-Integrated-FF6F61?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/AI-Calendar" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="50%" valign="top" style="padding: 10px;">
-      <!-- Card 4: Billing Software -->
-      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(116, 75, 162, 0.1); border: 1px solid rgba(116, 75, 162, 0.2); border-radius: 12px;">
-        <tr>
-          <td valign="top">
-            <h4 style="margin: 0 0 8px; color: #764BA2; font-size: 1.1em;">💼 Billing Software</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">Desktop ERP-like billing and inventory management system.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Tech-Flutter-00B4AB?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/System-ERP-00D4FF?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/Billing-Software-Desktop-Application" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" style="padding: 10px;">
-      <!-- Card 5: Portfolio Builder -->
-      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.2); border-radius: 12px;">
-        <tr>
-          <td valign="top">
-            <h4 style="margin: 0 0 8px; color: #00D4FF; font-size: 1.1em;">🌐 Portfolio Builder</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">Dynamic portfolio platform with customizable templates.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/CMS-Dynamic-00D4FF?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/Portfolio-Website-Builder" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="50%" valign="top" style="padding: 10px;">
-      <!-- Card 6: Genisus AI OS -->
-      <table width="100%" height="100%" cellspacing="0" cellpadding="15" style="border-collapse: collapse; background: rgba(247, 223, 30, 0.1); border: 1px solid rgba(247, 223, 30, 0.2); border-radius: 12px;">
-        <tr>
-          <td valign="top">
-            <h4 style="margin: 0 0 8px; color: #F7DF1E; font-size: 1.1em;">🤖 Genisus AI OS</h4>
-            <p style="margin: 8px 0; color: #d0d8e4; font-size: 0.9em; min-height: 40px;">Personal AI operating system for productivity and automation.</p>
-            <div style="margin: 10px 0;">
-              <img src="https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square&logoColor=white" />
-              <img src="https://img.shields.io/badge/AI-Powered-FF6F61?style=flat-square&logoColor=white" style="margin-left: 5px;" />
-            </div>
-            <div style="margin: 8px 0;">
-              <a href="https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System" style="color: #7dd3fc; text-decoration: none;">View Repository</a>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+| 🏨 [BookNowGo](https://github.com/sathishkhan27/BookNowGo-FrontEnd) | 🍽️ [PingZo Ecosystem](https://github.com/sathishkhan27/PingZo-Customer-Mobile-App) |
+| :--- | :--- |
+| Hotel room booking platform with scalable backend.<br/><br/>![TypeScript](https://img.shields.io/badge/Frontend-TypeScript-3178C6?style=flat-square) ![Java](https://img.shields.io/badge/Backend-Java-ED8B00?style=flat-square)<br/><br/>[Frontend](https://github.com/sathishkhan27/BookNowGo-FrontEnd) • [Backend](https://github.com/sathishkhan27/BookNowGo-BackEnd) | End-to-end grocery & food delivery (3 apps).<br/><br/>![Dart](https://img.shields.io/badge/Mobile-Dart-00B4AB?style=flat-square) ![TypeScript](https://img.shields.io/badge/Admin-TypeScript-3178C6?style=flat-square)<br/><br/>[Customer](https://github.com/sathishkhan27/PingZo-Customer-Mobile-App) • [Delivery](https://github.com/sathishkhan27/PingZO-Delivery-App) • [Admin](https://github.com/sathishkhan27/Food-Grocery-Admin-Pannel) |
 
----
+| 📱 [AI Calendar](https://github.com/sathishkhan27/AI-Calendar) | 💼 [Billing Software](https://github.com/sathishkhan27/Billing-Software-Desktop-Application) |
+| :--- | :--- |
+| AI-powered scheduling and intelligent automation.<br/><br/>![Dart](https://img.shields.io/badge/Framework-Dart-00B4AB?style=flat-square) ![AI](https://img.shields.io/badge/AI-Integrated-FF6F61?style=flat-square) | Desktop ERP-like billing & inventory management.<br/><br/>![Flutter](https://img.shields.io/badge/Tech-Flutter-00B4AB?style=flat-square) ![ERP](https://img.shields.io/badge/System-ERP-00D4FF?style=flat-square) |
 
-### 📱 Mobile Applications
+| 🌐 [Portfolio Builder](https://github.com/sathishkhan27/Portfolio-Website-Builder) | 🤖 [Genisus AI OS](https://github.com/sathishkhan27/Genisus-Personal-AI-Operating-System) |
+| :--- | :--- |
+| Dynamic portfolio platform with custom templates.<br/><br/>![TypeScript](https://img.shields.io/badge/Tech-TypeScript-3178C6?style=flat-square) ![CMS](https://img.shields.io/badge/CMS-Dynamic-00D4FF?style=flat-square) | Personal AI operating system for productivity.<br/><br/>![JavaScript](https://img.shields.io/badge/Tech-JavaScript-F7DF1E?style=flat-square) ![AI](https://img.shields.io/badge/AI-Powered-FF6F61?style=flat-square) |
 
+### 📱 Mobile & Web Ventures
 - **🎯 PingZo Customer Mobile App** - Dart/Flutter, user-friendly grocery & food ordering with real-time tracking
-- **🚚 PingZo Delivery App** - Dart/Flutter, live delivery tracking, route optimization & earnings management  
+- **🚚 PingZo Delivery App** - Dart/Flutter, live delivery tracking, route optimization & earnings management  
 - **📱 Shreeja Ulagam Mobile App** - Dart/Flutter, domain-specific mobile solution with rich features
-
-### 🌐 Web & Other Projects
-
 - **🖥️ gstechnology** - HTML-based portfolio showcase
-- **💼 Portfolio Website** - Personal portfolio and professional presence
 
 ---
 
@@ -257,55 +117,58 @@
 
 ## 💡 Professional Highlights
 
-<table width="100%" cellspacing="0" cellpadding="20" style="border-collapse: collapse; background: linear-gradient(135deg, rgba(30, 60, 114, 0.15) 0%, rgba(42, 82, 152, 0.15) 100%); border-radius: 12px; border-left: 4px solid #00D4FF; margin: 20px 0;">
-  <tr>
-    <td>
-
-✅ **Architected & Delivered** large-scale mobile and enterprise applications serving millions  
-✅ **Platform Scale**: Built systems across FinTech, Insurance, B2B, Trading, and Social domains  
-✅ **End-to-End Solutions**: Mobile → Web → Backend → Cloud → AI integration  
-✅ **Team Leadership**: Technical lead guiding cross-functional teams for high-impact delivery  
-✅ **Performance First**: Scalable architecture, clean code, and product excellence  
-✅ **Innovation Driven**: Leveraging AI tools for accelerated development and delivery
-
-    </td>
-  </tr>
+<table width="100%" border="0" cellspacing="0" cellpadding="20" style="border-collapse: collapse; background: linear-gradient(135deg, rgba(30, 60, 114, 0.15) 0%, rgba(42, 82, 152, 0.15) 100%); border-radius: 12px;">
+  <tr>
+    <td style="font-size: 16px; line-height: 1.8;">
+      ✅ <b>Architected & Delivered</b> large-scale mobile and enterprise applications serving millions<br>
+      ✅ <b>Platform Scale</b>: Built systems across FinTech, Insurance, B2B, Trading, and Social domains<br>
+      ✅ <b>End-to-End Solutions</b>: Mobile → Web → Backend → Cloud → AI integration<br>
+      ✅ <b>Team Leadership</b>: Technical lead guiding cross-functional teams for high-impact delivery<br>
+      ✅ <b>Performance First</b>: Scalable architecture, clean code, and product excellence<br>
+      ✅ <b>Innovation Driven</b>: Leveraging AI tools for accelerated development and delivery
+    </td>
+  </tr>
 </table>
 
 ---
 
 ## 🎯 Open to Opportunities
 
-I'm actively seeking roles in:
-
-<div align="center">
-
-🚀 **Senior Engineering** | Technical Leadership  
-🏗️ **Architecture & Design** | Platform Development  
-📱 **Mobile Ecosystem** | Full-Stack Engineering  
-🤖 **AI Integration** | Innovative Solutions  
-💼 **Enterprise Products** | Startup Ventures
-
-</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="20" style="border-collapse: collapse; background: linear-gradient(135deg, rgba(118, 75, 162, 0.15) 0%, rgba(102, 126, 234, 0.15) 100%); border-radius: 12px;">
+  <tr>
+    <td align="left" style="font-size: 16px; line-height: 1.8;">
+      <h3 style="color: #d0d8e4; margin-top: 0;">I'm actively seeking roles in:</h3>
+      🚀 <b>Senior Engineering</b> | Technical Leadership<br>
+      🏗️ <b>Architecture & Design</b> | Platform Development<br>
+      📱 <b>Mobile Ecosystem</b> | Full-Stack Engineering<br>
+      🤖 <b>AI Integration</b> | Innovative Solutions<br>
+      💼 <b>Enterprise Products</b> | Startup Ventures
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 📫 Let's Connect
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sathish-sivakumar-99a462143)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sathish.sivakumar2706@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=globe&logoColor=white)](https://sathish-portfolio-website.onrender.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sathishkhan27)
-
-</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="20" style="border-collapse: collapse; background: linear-gradient(135deg, #0f172a 0%, #102c3c 100%); border-radius: 16px;">
+  <tr>
+    <td align="center">
+      <a href="https://linkedin.com/in/sathish-sivakumar-99a462143" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;
+      <a href="mailto:sathish.sivakumar2706@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://sathish-portfolio-website.onrender.com/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=globe&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/sathishkhan27" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
 <div align="center">
 
 **Building the future with code and innovation** ✨
+
+<br>
 
 <img src="https://img.shields.io/badge/Last%20Updated-Oct%202026-00D4FF?style=flat-square" />
 <img src="https://img.shields.io/github/followers/sathishkhan27?style=flat-square&label=Followers&logo=github" />
